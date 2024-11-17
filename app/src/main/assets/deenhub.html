@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeenHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery.min.js"></script> <!-- Local reference -->
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Welcome to DeenHub</h1>
+            <button id="theme-toggle">Switch to Dark Mode</button>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Quran</a></li>
+                <li><a href="#">Prayer Times</a></li>
+                <li><a href="#">Hadith</a></li>
+                <li><a href="#">Dua</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <section class="content">
+            <h2>Your Islamic Hub</h2>
+            <div id="location"></div>
+            <div id="weather"></div>
+            <div id="prayer-times">
+                <h3>Prayer Times for Today</h3>
+                <ul id="prayer-list"></ul>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 DeenHub. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

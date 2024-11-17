@@ -1,0 +1,53 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2c3e50</item>
+        <item name="colorPrimaryDark">#34495e</item>
+        <item name="colorAccent">#1abc9c</item>
+        <item name="android:windowBackground">#f4f4f4</item>
+    </style>
+
+    <!-- Header style -->
+    <style name="HeaderText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:background">#2c3e50</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <!-- Navigation style -->
+    <style name="NavStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#34495e</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- Navigation links -->
+    <style name="NavLink">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Content text -->
+    <style name="ContentText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#2c3e50</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Footer style -->
+    <style name="FooterStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#2c3e50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">20dp</item>
+    </style>
+</resources>
